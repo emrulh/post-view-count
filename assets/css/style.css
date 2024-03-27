@@ -1,0 +1,29 @@
+.em-post-count {
+    background-color: #fff;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 3px;
+}
+.em-post-count h4 {
+    margin: 0 0 10px 0;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.em-post-count p {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.em-post-count-box.sticky {
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+.em-post-count-box.sticky .em-post-count {
+    padding: 10px;
+    margin: 5px;
+}
+.em-post-count-box.sticky .em-post-count h4 {
+    margin:0;
+}
