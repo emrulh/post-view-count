@@ -54,7 +54,7 @@ class View {
             $count = get_post_meta( $post_id, 'em_view_count', true );
 
             // Display number of views
-            echo "<strong>Total view:</strong> " . $count . "<br>";
+            echo "<strong>Total View:</strong> " . $count . "<br>";
 
             //Display the shortcode
             echo "<strong>Shortcode:</strong> <code>" . esc_html( "[counter id=\"{$post_id}\"/]" ) . "</code><br>";
